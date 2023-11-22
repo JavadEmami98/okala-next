@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: IRANSansfa !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: IRANSansfa;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: IRANSansfa !important;
+}
+
+@layer base {
+  html {
+    font-size: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    box-sizing: border-box;
+  }
+
+  input,
+  select,
+  button {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .container {
+    max-width: 1280px;
+    margin-inline: auto;
+    /*    padding-inline: 10px; */
+  }
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  width: 100%;
+  max-width: fit-content !important;
+  height: 100% !important;
+  border-radius: 12px !important;
+}
+
+.bottom-nav {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 12px;
+  padding-bottom: 4px;
+  height: 60px;
+}
+
+.red {
+  color: #f01436;
+}
+
+.black {
+  color: #363636;
+}
+
+.css-9emuhu-MuiPaper-root-MuiDrawer-paper {
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes ping {
+  75%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.animate-ping {
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.swiper-wrapper {
+  flex-direction: row !important;
+}
+
+.css-19kzrtu {
+  padding: 0px !important;
+}
+
+.green {
+  background-color: #02a0a40a !important;
+  color: #02a0a4;
+  border-radius: 8px;
+  font-size: 20px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.black {
+  color: #000000;
+}
+
+/* Icons */
+.close-icon {
+  color: red !important;
+  background-color: red;
+}
+
+.btn-animation {
+  color: #fff;
+  cursor: pointer;
+  transition: width 0.1s ease-in-out 0s;
+}
+
+.btn-animation:active {
+  width: 103px;
+}
+
+.muirtl-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 0.75rem;
+}
